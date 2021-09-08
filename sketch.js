@@ -1,7 +1,7 @@
 var canvas, backgroundImage;
 
 var gameState = 0;
-var contestantCount;
+var contestantCount=0;
 var allContestants;
 var answer;
 var database;

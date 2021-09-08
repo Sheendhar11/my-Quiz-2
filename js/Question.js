@@ -10,6 +10,7 @@ class Question {
     this.option2 = createElement('h4');
     this.option3 = createElement('h4');
     this.option4 = createElement('h4');
+    this.message = createElement('h4');
   }
 
   hide(){
@@ -39,6 +40,8 @@ class Question {
     this.button.position(290, 300);
 
     this.button.mousePressed(()=>{
+      this.message.html("thank you your response has been submitted")
+      this.message.position(200,350)
       this.title.hide();
       this.input1.hide();
       this.input2.hide();
